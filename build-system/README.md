@@ -84,6 +84,18 @@ pub fn build(b: *std.Build) void {
 }
 ```
 
+```
+$ zig build --help
+Usage: /.../zig/0.15.2/bin/zig build [steps] [options]
+
+Steps:
+  install (default)            Copy build artifacts to prefix path
+  uninstall                    Remove build artifacts from prefix path
+  run                          Run the app
+  test                         Run tests
+```
+
+
 ## build.zig.zon
 
 ```zig
